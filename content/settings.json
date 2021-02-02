@@ -1,0 +1,33 @@
+{
+  "title": "Nuxt Content Theme Blog",
+  "url": "",
+  "logo": {
+    "light": "/logo-light.svg",
+    "dark": "/logo-dark.svg"
+  },
+  "github": "",
+  "twitter": "",
+  "copyright": "2021 nuxt-content-theme-blog",
+  "categories": {
+    "category-1": {
+      "title": "カテゴリ１"
+    },
+    "category-2":  {
+      "title": "カテゴリー２"
+    },
+    "category-3": {
+      "title": "カテゴリー３",
+      "children": {
+        "category-3-1": {
+          "title": "カテゴリー３－１"
+        },
+        "category-3-2": {
+          "title": "カテゴリー３－２"
+        },
+        "category-3-3": {
+          "title": "カテゴリー３－３"
+        }
+      }
+    }
+  }
+}
