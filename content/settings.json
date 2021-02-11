@@ -1,13 +1,13 @@
 {
-  "title": "Nuxt Content Theme Blog",
-  "url": "",
+  "title": "Toragramming",
+  "url": "Toragramming",
   "logo": {
     "light": "/logo-light.svg",
     "dark": "/logo-dark.svg"
   },
   "github": "",
-  "twitter": "",
-  "copyright": "2021 nuxt-content-theme-blog",
+  "twitter": "TigRig_TRNS",
+  "copyright": "2021 Toragramming",
   "categories": {
     "category-1": {
       "title": "カテゴリ１"
