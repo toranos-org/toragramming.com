@@ -1,8 +1,8 @@
 {
-  "name": "nuxt-content-theme-blog",
+  "name": "toragramming.com",
   "version": "0.0.1",
   "private": true,
-  "repository": "toranos-org/nuxt-content-theme-blog",
+  "repository": "toranos-org/toragramming.com",
   "license": "MIT",
   "files": [
     "src"
