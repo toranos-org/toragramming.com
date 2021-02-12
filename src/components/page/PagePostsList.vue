@@ -42,7 +42,75 @@ export default Vue.extend({
     },
   },
   computed: {
-    ...mapGetters(['getCategoryPathByName']),
+    ...mapGetters(['settings', 'getCategoryPathByName']),
+  },
+  head() {
+    let [title, description] = [
+      '',
+      'プログラマー TigRig の技術情報備忘録。デスクトップアプリ開発や Web アプリ開発、ゲーム制作など様々なジャンルの技術情報を投稿しております。',
+    ]
+
+    const path = this.$route.path
+    if (path !== '/') {
+      const categoryName = this.getCategoryPathByName(
+        path.substring(1, path.length)
+      )
+      title = `記事一覧（${categoryName}）`
+      description = `${categoryName}の記事一覧ページです。`
+    }
+
+    return {
+      title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: description,
+        },
+        // Open Graph
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: title || 'Toragramming',
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: description,
+        },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: this.settings.url + path,
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: this.settings.url + '/preview.png',
+        },
+        // Twitter Card
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: title || 'Toragramming',
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: description,
+        },
+        {
+          hid: 'twitter:image',
+          name: 'twitter:image',
+          content: this.settings.url + '/preview.png',
+        },
+        {
+          hid: 'twitter:image:alt',
+          name: 'twitter:image:alt',
+          content: title || 'Toragramming',
+        },
+      ],
+    }
   },
 })
 </script>
