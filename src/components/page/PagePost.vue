@@ -67,11 +67,13 @@ export default {
     },
     prev: {
       type: Object,
-      required: true,
+      required: false,
+      default: () => {},
     },
     next: {
       type: Object,
-      required: true,
+      required: false,
+      default: () => {},
     },
   },
   computed: {
