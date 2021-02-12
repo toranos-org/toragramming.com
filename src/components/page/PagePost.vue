@@ -44,8 +44,8 @@
         </div>
         <NuxtContent :document="document" />
       </article>
-      <AppPrevNext :prev="prev" :next="next" />
-      <AppTocButton :toc="document.toc" />
+      <AppPrevNext v-if="!document.fullscreen" :prev="prev" :next="next" />
+      <AppTocButton v-if="!document.fullscreen" :toc="document.toc" />
     </div>
     <AppSidebar v-if="!document.fullscreen" :toc="document.toc" />
   </div>
