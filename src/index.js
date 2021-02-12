@@ -38,7 +38,12 @@ const defaultConfig = (docsOptions) => ({
     '@nuxtjs/google-fonts',
     '@nuxt/typescript-build',
   ],
-  modules: ['nuxt-i18n', '@nuxt/content', 'nuxt-fontawesome'],
+  modules: [
+    'nuxt-i18n',
+    '@nuxt/content',
+    'nuxt-fontawesome',
+    '@nuxtjs/sitemap',
+  ],
   components: true,
   loading: {
     color: docsOptions.primaryColor,
@@ -133,6 +138,18 @@ const defaultConfig = (docsOptions) => ({
   tailwindcss: {},
   fontawesome: {
     component: 'fa',
+  },
+  sitemap: {
+    hostname: 'https:/toragramming.com',
+    gzip: true,
+    routes: async () => {
+      const { $content } = require('@nuxt/content')
+      const posts = await $content({ deep: true })
+        .only(['path'])
+        .where({ path: { $ne: '/settings' } })
+        .fetch()
+      return posts.map((post) => post.path)
+    },
   },
 })
 
