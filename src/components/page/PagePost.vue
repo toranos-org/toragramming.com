@@ -60,7 +60,6 @@ import { faCalendarCheck, faSyncAlt } from '@fortawesome/free-solid-svg-icons'
 import AppCopyButton from '~/components/app/AppCopyButton'
 
 export default {
-  name: 'PageSlug',
   props: {
     document: {
       type: Object,
