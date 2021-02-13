@@ -186,6 +186,7 @@ module.exports = ({ docsOptions, nuxt }) => ({
     borderWidth: ['responsive', 'first', 'last'],
     typography: ['responsive', 'dark'],
     boxShadow: ['dark'],
+    fontWeight: ['dark'],
   },
   plugins: [
     plugin(function ({ addVariant, prefix, e }) {
