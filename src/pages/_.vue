@@ -30,7 +30,7 @@ export default Vue.extend({
         'category',
         'createdAt',
       ])
-      .sortBy('createdAt', 'asc')
+      .sortBy('createdAt', 'desc')
       .fetch()
 
     if (posts.length > 0) {

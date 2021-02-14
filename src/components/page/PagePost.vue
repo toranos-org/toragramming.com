@@ -44,8 +44,8 @@
         </div>
         <NuxtContent :document="document" />
       </article>
-      <AppPrevNext :prev="prev" :next="next" />
-      <AppTocButton :toc="document.toc" />
+      <AppPrevNext v-if="!document.fullscreen" :prev="prev" :next="next" />
+      <AppTocButton v-if="!document.fullscreen" :toc="document.toc" />
     </div>
     <AppSidebar v-if="!document.fullscreen" :toc="document.toc" />
   </div>
@@ -60,7 +60,6 @@ import { faCalendarCheck, faSyncAlt } from '@fortawesome/free-solid-svg-icons'
 import AppCopyButton from '~/components/app/AppCopyButton'
 
 export default {
-  name: 'PageSlug',
   props: {
     document: {
       type: Object,
@@ -68,11 +67,13 @@ export default {
     },
     prev: {
       type: Object,
-      required: true,
+      required: false,
+      default: () => {},
     },
     next: {
       type: Object,
-      required: true,
+      required: false,
+      default: () => {},
     },
   },
   computed: {

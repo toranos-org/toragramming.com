@@ -4,7 +4,7 @@
       <span :class="`list-${type}`" class="mt-px mr-3 flex-shrink-0">
         <component :is="iconName" class="h-6 w-6" />
       </span>
-      {{ item }} hogehoge
+      {{ item }}
     </div>
   </div>
 </template>
