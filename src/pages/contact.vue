@@ -35,9 +35,11 @@
 
 <script lang="ts">
 import Vue from 'vue'
+import { mapGetters } from 'vuex'
 
 export default Vue.extend({
   computed: {
+    ...mapGetters(['settings']),
     labelStyles() {
       return [
         'block',
@@ -107,6 +109,64 @@ export default Vue.extend({
         'rounded',
       ]
     },
+  },
+  head() {
+    const [title, description] = ['お問い合わせ', 'お問い合わせ']
+
+    const metaTitle = `${title} - ${this.settings.title}`
+
+    return {
+      title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: description,
+        },
+        // Open Graph
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: metaTitle,
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: description,
+        },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: this.settings.url + this.$route.path,
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: this.settings.url + '/preview.png',
+        },
+        // Twitter Card
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: metaTitle,
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: description,
+        },
+        {
+          hid: 'twitter:image',
+          name: 'twitter:image',
+          content: this.settings.url + '/preview.png',
+        },
+        {
+          hid: 'twitter:image:alt',
+          name: 'twitter:image:alt',
+          content: metaTitle,
+        },
+      ],
+    }
   },
 })
 </script>
