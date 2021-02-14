@@ -13,19 +13,19 @@
         </div>
         <div class="flex flex-wrap -mx-3 mb-6">
           <div class="w-full px-3">
-            <label :class="labelStyles" for="email"> E-mail </label>
+            <label :class="labelStyles" for="email">メールアドレス</label>
             <input name="email" :class="inputStyles" type="email" />
           </div>
         </div>
         <div class="flex flex-wrap -mx-3 mb-6">
           <div class="w-full px-3">
-            <label :class="labelStyles" for="message"> Message </label>
+            <label :class="labelStyles" for="message">メッセージ</label>
             <textarea name="message" :class="textareaStyles"></textarea>
           </div>
         </div>
         <div class="md:flex md:items-center">
           <div class="md:w-1/3">
-            <button :class="buttonStyles" type="button">Send</button>
+            <button :class="buttonStyles" type="button">送信</button>
           </div>
         </div>
       </form>
