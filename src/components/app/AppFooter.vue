@@ -11,11 +11,11 @@
         'px-4',
         'lg:px-12',
         'grid',
-        'grid-cols-3',
+        'lg:grid-cols-4',
         'gap-4',
       ]"
     >
-      <div v-if="logo" class="">
+      <div>
         <img
           :src="logo.light"
           class="h-8 max-w-full light-img"
@@ -27,10 +27,19 @@
           :alt="settings.title"
         />
       </div>
-      <div class=""></div>
-      <div v-if="settings.copyright" class="flex items-end justify-end text-sm">
+      <ul
+        class="flex gap-4 items-center lg:col-span-2 text-sm dark:text-gray-600"
+      >
+        <li><a class="hover:underline" href="/contact">お問い合わせ</a></li>
+        <li>
+          <a class="hover:underline" href="/privacy">プライバシーポリシー</a>
+        </li>
+        <li><a class="hover:underline" href="/law">免責事項</a></li>
+        <li><a class="hover:underline" href="/sitemap.xml">サイトマップ</a></li>
+      </ul>
+      <p class="lg:place-self-end text-xs">
         {{ `© ${settings.copyright}` }}
-      </div>
+      </p>
     </div>
   </footer>
 </template>
