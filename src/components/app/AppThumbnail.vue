@@ -1,13 +1,13 @@
 <template>
   <div>
-    <img
+    <nuxt-img
       :src="`/${lightImg}`"
       class="light-img"
       width="1280"
       height="640"
       :alt="`${title}-thumbnail`"
     />
-    <img
+    <nuxt-img
       :src="`/${darkImg}`"
       class="dark-img"
       width="1280"

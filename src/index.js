@@ -37,6 +37,7 @@ const defaultConfig = (docsOptions) => ({
     '@nuxtjs/pwa',
     '@nuxtjs/google-fonts',
     '@nuxt/typescript-build',
+    '@nuxt/image',
   ],
   modules: [
     'nuxt-i18n',
