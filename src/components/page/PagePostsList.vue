@@ -8,6 +8,7 @@
           <AppThumbnail
             :title="`${post.title}-thumbnail`"
             :thumbnail="post.thumbnail"
+            :img-dir="post.thumbnail ? '/assets' + post.to : ''"
           />
           <div class="px-6 py-4 border-t dark:border-gray-800">
             <div class="font-bold text-lg">

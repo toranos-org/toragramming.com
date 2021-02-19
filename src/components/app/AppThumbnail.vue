@@ -1,14 +1,14 @@
 <template>
   <div>
     <nuxt-img
-      :src="`/${lightImg}`"
+      :src="`${imgDir}/${lightImg}`"
       class="light-img"
       width="1280"
       height="640"
       :alt="`${title}-thumbnail`"
     />
     <nuxt-img
-      :src="`/${darkImg}`"
+      :src="`${imgDir}/${darkImg}`"
       class="dark-img"
       width="1280"
       height="640"
@@ -27,6 +27,10 @@ export default {
     thumbnail: {
       type: [Object, String],
       default: 'default-thumbnail.png',
+    },
+    imgDir: {
+      type: String, // PagePost, PagePostList からうまいこと document.dir ？ あたりをワタス
+      default: '',
     },
   },
   computed: {

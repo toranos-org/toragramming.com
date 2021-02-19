@@ -40,6 +40,7 @@
           <AppThumbnail
             :title="`${document.title}-thumbnail`"
             :thumbnail="document.thumbnail"
+            :img-dir="document.thumbnail ? '/assets' + document.to : ''"
           />
         </div>
         <NuxtContent :document="document" />

@@ -12,6 +12,7 @@
         <AppThumbnail
           :title="`${prev.title}-thumbnail`"
           :thumbnail="prev.thumbnail"
+          :img-dir="prev.thumbnail ? '/assets' + prev.to : ''"
         />
         <div
           class="absolute left-0 top-0 m-1 p-1 rounded-full bg-gray-200 dark:bg-gray-800"
@@ -42,6 +43,7 @@
         <AppThumbnail
           :title="`${next.title}-thumbnail`"
           :thumbnail="next.thumbnail"
+          :img-dir="next.thumbnail ? '/assets' + next.to : ''"
         />
         <div
           class="absolute top-0 right-0 m-1 p-1 rounded-full bg-gray-200 dark:bg-gray-800"
