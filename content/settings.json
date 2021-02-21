@@ -9,23 +9,11 @@
   "twitter": "TigRig_TRNS",
   "copyright": "2021 Toragramming",
   "categories": {
-    "category-1": {
-      "title": "カテゴリ１"
-    },
-    "category-2":  {
-      "title": "カテゴリー２"
-    },
-    "category-3": {
-      "title": "カテゴリー３",
+    "desktop": {
+      "title": "デスクトップアプリ",
       "children": {
-        "category-3-1": {
-          "title": "カテゴリー３－１"
-        },
-        "category-3-2": {
-          "title": "カテゴリー３－２"
-        },
-        "category-3-3": {
-          "title": "カテゴリー３－３"
+        "electron": {
+          "title": "Electron"
         }
       }
     }
