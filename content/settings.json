@@ -22,6 +22,9 @@
       "children": {
         "html": {
           "title": "HTML"
+        },
+        "css": {
+          "title": "CSS"
         }
       }
     }
