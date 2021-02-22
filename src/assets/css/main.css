@@ -88,3 +88,17 @@
     }
   }
 }
+
+span.marker-red {
+  background: linear-gradient(transparent 60%, var(--color-red-200) 0%);
+}
+span.marker-blue {
+  background: linear-gradient(transparent 60%, var(--color-blue-200) 0%);
+}
+
+.dark-mode span.marker-red {
+  background: linear-gradient(transparent 60%, var(--color-red-900) 0%);
+}
+.dark-mode span.marker-blue {
+  background: linear-gradient(transparent 60%, var(--color-blue-900) 0%);
+}
