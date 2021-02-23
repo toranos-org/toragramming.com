@@ -28,6 +28,9 @@
         },
         "rental-server": {
           "title": "レンタルサーバー"
+        },
+        "wordpress": {
+          "title": "WordPress"
         }
       }
     }
