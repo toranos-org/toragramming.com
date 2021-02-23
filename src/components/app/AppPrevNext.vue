@@ -8,7 +8,9 @@
       :to="localePath(prev.to)"
       class="grid grid-cols-2 border dark:border-gray-800 rounded"
     >
-      <div class="w-full relative border-r dark:border-gray-800">
+      <div
+        class="flex items-center w-full relative border-r dark:border-gray-800"
+      >
         <AppThumbnail
           :title="`${prev.title}-thumbnail`"
           :thumbnail="prev.thumbnail"
@@ -23,7 +25,7 @@
       <div
         class="text-primary-500 font-bold flex items-center justify-start p-1"
       >
-        <span class="truncate">{{ prev.title }}</span>
+        <span class="line-clamp-2">{{ prev.title }}</span>
       </div>
     </NuxtLink>
 
@@ -37,9 +39,11 @@
       <div
         class="text-primary-500 font-bold flex items-center justify-start p-1"
       >
-        <span class="truncate">{{ next.title }}</span>
+        <span class="line-clamp-2">{{ next.title }}</span>
       </div>
-      <div class="w-full relative border-l dark:border-gray-800">
+      <div
+        class="flex items-center w-full relative border-l dark:border-gray-800"
+      >
         <AppThumbnail
           :title="`${next.title}-thumbnail`"
           :thumbnail="next.thumbnail"
