@@ -26,6 +26,9 @@
         "css": {
           "title": "CSS"
         },
+        "nuxtjs": {
+          "title": "Nuxt.js"
+        },
         "rental-server": {
           "title": "レンタルサーバー"
         },
