@@ -26,6 +26,9 @@
         "css": {
           "title": "CSS"
         },
+        "vuejs": {
+          "title": "Vue.js"
+        },
         "nuxtjs": {
           "title": "Nuxt.js"
         },
