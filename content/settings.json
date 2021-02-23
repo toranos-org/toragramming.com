@@ -16,6 +16,14 @@
           "title": "Electron"
         }
       }
+    },
+    "web": {
+      "title": "Web 系",
+      "children": {
+        "html": {
+          "title": "HTML"
+        }
+      }
     }
   }
 }
