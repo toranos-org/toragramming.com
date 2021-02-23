@@ -25,6 +25,9 @@
         },
         "css": {
           "title": "CSS"
+        },
+        "rental-server": {
+          "title": "レンタルサーバー"
         }
       }
     }
