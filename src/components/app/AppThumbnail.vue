@@ -4,14 +4,12 @@
       :src="`${imgDir}/${lightImg}`"
       class="light-img"
       width="1280"
-      height="640"
       :alt="`${title}-thumbnail`"
     />
     <nuxt-img
       :src="`${imgDir}/${darkImg}`"
       class="dark-img"
       width="1280"
-      height="640"
       :alt="`${title}-thumbnail`"
     />
   </div>
