@@ -39,6 +39,14 @@
           "title": "WordPress"
         }
       }
+    },
+    "others": {
+      "title": "その他",
+      "children": {
+        "oracle": {
+          "title": "Oracle"
+        }
+      }
     }
   }
 }
