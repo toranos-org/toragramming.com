@@ -2,6 +2,7 @@
 title: ホームページやブログのレンタルサーバー『ConoHa WING』を紹介！
 description: レンタルサーバー『ConoHa WING』についての説明、登録手順の紹介記事です。実際に2年間使用した評価を交えて、良いところを説明します。
 thumbnail: eyecatch.png
+createdAt: 2019-03-08 00:00:00
 ---
 
 ## ConoHa WING って？

@@ -2,6 +2,7 @@
 title: Nuxt + TypeScript で Vuex を扱うために ～ vuex-module-decorators
 description: Nuxt の Vuex を TypeScript でタイプセーフに扱うための環境構築手順を紹介します。vuex-module-decorator を使います。
 thumbnail: eyecatch.png
+createdAt: 2019-09-26 00:00:00
 ---
 
 ## はじめに

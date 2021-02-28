@@ -2,6 +2,7 @@
 title: Nuxt 2.10↑ + TypeScirpt + ESLint + Prettier + VSCode 環境構築（2020/01/17）
 description: Nuxt 2.10 + TypeScript の環境構築記事です。エディタは VisualStudioCode 、ESLint + Prettier を用いて、保存時に自動フォーマットが走る設定をします。
 thumbnail: eyecatch.png
+createdAt: 2019-09-22 00:00:00
 ---
 
 ## はじめに

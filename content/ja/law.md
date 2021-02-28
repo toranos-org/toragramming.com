@@ -2,6 +2,7 @@
 title: 免責事項
 description: 免責事項
 fullscreen: true
+createdAt: 2019-01-27 00:00:00
 ---
 
 Toragramming（以下、「当サイト」とします。）における免責事項は、下記の通りです。

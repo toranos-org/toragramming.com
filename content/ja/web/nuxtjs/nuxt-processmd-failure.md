@@ -2,6 +2,7 @@
 title: 【Nuxt.js】processmd を使った Markdown ファイルの JSON 変換で躓いたことメモ
 description: Nuxt.js × processmd で Markdown ファイルの JSON 変換を行うにあたって、うまく JSON 出力ができなかったときの備忘録。
 thumbnail: eyecatch.png
+createdAt: 2019-07-10 00:00:00
 ---
 
 ## ディレクトリ構成

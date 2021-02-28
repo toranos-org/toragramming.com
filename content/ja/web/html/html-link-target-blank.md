@@ -2,6 +2,7 @@
 title: HTMLでリンクを別タブ・別ウィンドウで開く方法と、脆弱性に関する注意
 description: HTMLでリンクを別タブ・別ウィンドウで開く方法を紹介します。また、 a タグに noopener noreferrer といった記述が必要な理由、そこに関わる脆弱性について説明します。
 thumbnail: eyecatch.png
+createdAt: 2019-02-19 00:00:00
 ---
 
 ## リンクの表示先を指定する方法

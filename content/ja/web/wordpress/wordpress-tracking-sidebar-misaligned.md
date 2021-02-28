@@ -2,6 +2,7 @@
 title: 【WordPress】スクロール追尾サイドバーが正しい位置で固定されない・ズレる原因と対処法
 description: WordPress で構築したサイトの固定サイドバーにおいて、固定される位置がずれてしまう現象の原因と対処法を紹介します。
 thumbnail: eyecatch.png
+createdAt: 2019-03-14 00:00:00
 ---
 
 ## 概要

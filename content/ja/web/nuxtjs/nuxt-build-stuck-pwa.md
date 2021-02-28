@@ -2,6 +2,7 @@
 title: 【Nuxt.js】dev や build スクリプト実行時、Client Bundle が 95％（nuxt-pwa-icon）で止まってしまう場合の対処法
 description: Nuxt.js で yarn (npm run) dev 実行時、Client Bundle が 95% で止まったしまったときの対処法備忘録（pwa モジュールに原因）
 thumbnail: eyecatch.png
+createdAt: 2019-08-25 00:00:00
 ---
 
 ## 発生条件

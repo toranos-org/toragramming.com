@@ -2,6 +2,7 @@
 title: Nuxt.js + TypeScript + Vuex で簡単な Todo リストを作るチュートリアル
 description: Nuxt + TypeScript + Vuex で簡単な Todo リストを作るチュートリアルの紹介です。Nuxt のバージョンは v10 - v14 が対象です。
 thumbnail: eyecatch.png
+createdAt: 2019-09-29 00:00:00
 ---
 
 ## はじめに
