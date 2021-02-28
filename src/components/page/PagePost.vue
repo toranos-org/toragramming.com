@@ -22,14 +22,17 @@
           {{ document.title }}
           <Badge v-if="document.badge">{{ document.badge }}</Badge>
         </h1>
-        <div class="text-sm text-right">
-          <fa :icon="faCalendarCheck" />
-          <span>{{ postedDate.create }}</span>
-          <span class="px-1"></span>
-          <fa :icon="faSyncAlt" />
-          <time :datetime="document.updatedAt" itemprop="modified">{{
-            postedDate.update
-          }}</time>
+        <div class="text-sm">
+          <span>
+            <fa :icon="faCalendarCheck" />
+            {{ postedDate.create }}
+          </span>
+          <span class="pl-4">
+            <fa :icon="faSyncAlt" />
+            <time :datetime="document.updatedAt" itemprop="modified">
+              {{ postedDate.update }}
+            </time></span
+          >
         </div>
         <div v-if="document.subtitle" class="-mt-4">
           <p class="text-gray-600 dark:text-gray-400">
@@ -80,7 +83,7 @@ export default {
   computed: {
     ...mapGetters(['settings', 'getCategoryPathByName']),
     postedDate() {
-      const options = { year: 'numeric', month: 'long', day: 'numeric' }
+      const options = { year: 'numeric', month: '2-digit', day: '2-digit' }
       const create = new Date(this.document.createdAt).toLocaleDateString(
         this.$i18n.locale,
         options
