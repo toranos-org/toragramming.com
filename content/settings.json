@@ -43,6 +43,9 @@
     "others": {
       "title": "その他",
       "children": {
+        "git": {
+          "title": "Git"
+        },
         "oracle": {
           "title": "Oracle"
         }
