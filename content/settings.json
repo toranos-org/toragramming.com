@@ -40,6 +40,14 @@
         }
       }
     },
+    "gamedev": {
+      "title": "ゲーム制作",
+      "children": {
+        "tyranoscript": {
+          "title": "TyranoScript"
+        }
+      }
+    },
     "others": {
       "title": "その他",
       "children": {
