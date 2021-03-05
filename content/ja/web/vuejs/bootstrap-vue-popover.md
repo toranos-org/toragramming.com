@@ -3,6 +3,7 @@ title: bootstrap-vue でホバー時ヒント（ポップオーバー）を出�
 description: Vue.js の UI フレームワークである bootstrap-vue において、マウスホバー時ヒント（ポップオーバー）を出す方法を紹介します。
 thumbnail: eyecatch.png
 createdAt: 2019-06-17 00:00:00
+updatedAt: 2019-06-17 00:00:00
 ---
 
 ## BootstrapVue Popover

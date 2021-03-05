@@ -3,6 +3,7 @@ title: 【Nuxt.js】SPA モード で Twitter Card が読み込まれず困っ�
 description: Nuxt.js で SPA サイトを構築したときに、Twitter Card がうまく読み込まれない場合の対処法を紹介します。
 thumbnail: eyecatch.png
 createdAt: 2019-06-15 00:00:00
+updatedAt: 2019-06-15 00:00:00
 ---
 
 ## 解決方法

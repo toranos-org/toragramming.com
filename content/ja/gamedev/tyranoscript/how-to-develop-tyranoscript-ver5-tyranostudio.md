@@ -3,6 +3,7 @@ title: TyranoScript Ver 5.00 と TyranoStudio でノベルゲーム開発！
 description: ノベルゲーム制作エンジン TyranoScript の Ver 5.00 （最新版）と、ノベルゲーム制作支援 GUI ツール TyranoStudio の使い方を紹介します。
 thumbnail: eyecatch.png
 createdAt: 2020-03-11 00:00:00
+updateAt: 2020-03-11 00:00:00
 ---
 
 2020 年の 1 月、TyranoScript に待望のバージョンアップデートが来ました！

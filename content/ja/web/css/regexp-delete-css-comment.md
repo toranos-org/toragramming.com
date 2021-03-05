@@ -3,6 +3,7 @@ title: 【正規表現】CSS のコメント一括削除～複数行や前後の
 description: CSS のコメントを一括削除（置換）する正規表現記法を紹介します。需要があるのかわかりませんが……。
 thumbnail: eyecatch.png
 createdAt: 2019-02-27 00:00:00
+createdAt: 2019-02-27 00:00:00
 ---
 
 ## CSS のコメントを削除する正規表現

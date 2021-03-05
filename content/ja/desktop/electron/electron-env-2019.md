@@ -3,6 +3,7 @@ title: 2019 年版：Electron の環境構築（Windows 向け）
 description: Electron の環境を構築する方法を紹介します。5分あれば Hello World を表示するテストアプリケーションが作れます！
 thumbnail: electron-logo.png
 createdAt: 2019-02-08 00:00:00
+updateAt: 2020-03-01 00:00:00
 ---
 
 ## Electron とは？

@@ -3,6 +3,7 @@ title: Nuxt + Stylelint + Prettier + VSCode で、保存時に SCSS を自動フ
 description: VSCode 環境にて、Prettier および Stylelint を用いて、Nuxt.js のコードを保存時自動フォーマットする方法を紹介します。
 thumbnail: eyecatch.png
 createdAt: 2020-01-04 00:00:00
+updatedAt: 2020-01-04 00:00:00
 ---
 
 ## 動作確認した環境

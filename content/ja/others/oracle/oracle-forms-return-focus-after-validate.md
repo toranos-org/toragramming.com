@@ -2,6 +2,7 @@
 title: Oracle Forms でテキストボックスの入力チェック→不正時はフォーカスを戻す方法
 description: 完全に過去の遺物となった Oracle Forms ... 。テキストボックスの入力チェックを行い、不正時はフォーカスを戻す仕組みを実装する方法を紹介します。
 createdAt: 2019-07-10 00:00:00
+updateAt: 2019-07-10 00:00:00
 ---
 
 ## when-validate-item 使おう

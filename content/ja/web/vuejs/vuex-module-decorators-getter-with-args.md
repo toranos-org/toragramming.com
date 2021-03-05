@@ -2,6 +2,7 @@
 title: vuex-module-decorators の Getter で引数を使う方法（Method-Style Access）
 description: vuex-module-decorators の Getter を引数付き関数として使用したい場合の記述方法です。
 createdAt: 2019-10-03 00:00:00
+updatedAt: 2019-10-03 00:00:00
 ---
 
 ## Getter 部分

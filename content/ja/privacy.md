@@ -3,6 +3,7 @@ title: プライバシーポリシー
 description: プライバシーポリシー
 fullscreen: true
 createdAt: 2019-01-27 00:00:00
+updateAt: 2021-03-01 00:00:00
 ---
 
 ## 1. 概要
