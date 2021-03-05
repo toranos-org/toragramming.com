@@ -1,5 +1,5 @@
 <template>
-  <div class="w-1/4 px-8 lg:block relative hidden">
+  <div class="px-8 lg:block relative hidden">
     <AppSearchWrapper class="pt-8" />
     <div class="pt-8 top-16 sticky">
       <p class="pb-2 text-gray-500 uppercase tracking-wider font-bold text-sm">

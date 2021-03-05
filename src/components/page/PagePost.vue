@@ -3,7 +3,7 @@
     <div
       class="w-full py-4 lg:pt-8 lg:pb-4 dark:border-gray-800"
       :class="{
-        'lg:w-3/4': !document.fullscreen,
+        'lg:w-70per': !document.fullscreen,
       }"
     >
       <article class="prose dark:prose-dark max-w-none lg:px-8">
@@ -51,7 +51,11 @@
       <AppPrevNext v-if="!document.fullscreen" :prev="prev" :next="next" />
       <AppTocButton v-if="!document.fullscreen" :toc="document.toc" />
     </div>
-    <AppSidebar v-if="!document.fullscreen" :toc="document.toc" />
+    <AppSidebar
+      v-if="!document.fullscreen"
+      class="w-30per"
+      :toc="document.toc"
+    />
   </div>
 </template>
 

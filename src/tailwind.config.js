@@ -26,6 +26,12 @@ module.exports = ({ docsOptions, nuxt }) => ({
       colors: {
         primary: getColors(docsOptions.primaryColor || '#00CD81'),
       },
+      width: {
+        '10per': '10%',
+        '30per': '30%',
+        '70per': '70%',
+        '90per': '90%',
+      },
       maxHeight: {
         64: '16rem',
         96: '24rem',
