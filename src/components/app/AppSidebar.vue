@@ -2,10 +2,11 @@
   <div class="px-8 lg:block relative hidden">
     <AppSearchWrapper class="pt-8" />
     <div class="pt-8 top-16 sticky">
-      <p class="pb-2 text-gray-500 uppercase tracking-wider font-bold text-sm">
-        {{ $t('toc.titleOnThisPage') }}
-      </p>
-      <AppToc class="h-96 overflow-auto" :toc="toc" />
+      <AppToc
+        class="max-h-60vh overflow-auto px-4 py-4 border-2 border-gray-400 dark:border-gray-600 rounded-lg"
+        :toc="toc"
+        :title="$t('toc.title')"
+      />
     </div>
   </div>
 </template>

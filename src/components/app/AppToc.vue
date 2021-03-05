@@ -18,22 +18,30 @@
           :key="link.id"
           class="text-gray-700 dark:text-gray-300"
           :class="{
-            'border-t border-dashed border-gray-400 dark:border-gray-700 first:border-t-0':
+            'border-t border-dashed border-gray-400 dark:border-gray-700 first:border-t-0 font-bold':
               link.depth === 2,
           }"
         >
           <a
             :href="`#${link.id}`"
-            class="block text-sm scrollactive-item transition-padding ease-in-out duration-300 hover:pl-1"
-            :class="{
-              'py-2': link.depth === 2,
-              'ml-2 pb-2': link.depth === 3,
-              'ml-3 pb-2': link.depth === 4,
-              'ml-4 pb-2': link.depth === 5,
-              'ml-5 pb-2': link.depth === 6,
-            }"
-            >{{ link.text }}</a
+            class=""
+            :class="[
+              'block',
+              'text-sm',
+              'scrollactive-item',
+              'transition-padding',
+              'ease-in-out',
+              'duration-300',
+              'hover:text-primary-400',
+              'dark-hover:text-primary-700',
+              {
+                'py-2': link.depth === 2,
+                'ml-4 pb-2': link.depth === 3,
+              },
+            ]"
           >
+            {{ link.text }}
+          </a>
         </li>
       </scrollactive>
     </nav>
