@@ -1,10 +1,6 @@
 <template>
-  <div
-    v-if="toc.length > 0 && !scrolledToMostBottom"
-    class="lg:hidden fixed z-30 bottom-4 right-4"
-  >
+  <div v-if="toc.length > 0" class="lg:hidden fixed z-30 bottom-4 right-4">
     <button
-      v-if="!tocIsDisplayed"
       :class="[
         'flex',
         'justify-center',
@@ -16,13 +12,13 @@
         'dark:bg-gray-700',
         'text-gray-200',
         'dark:text-gray-300',
+        { hidden: tocIsDisplayed },
       ]"
       @click.stop="tocIsDisplayed = !tocIsDisplayed"
     >
       <fa class="text-xl" :icon="faListUl" />
     </button>
     <div
-      v-else
       :class="[
         'px-8',
         'py-4',
@@ -35,6 +31,7 @@
         'bg-white',
         'dark:bg-gray-900',
         'overflow-auto',
+        { hidden: !tocIsDisplayed },
       ]"
     >
       <button
@@ -68,38 +65,12 @@ export default {
   data() {
     return {
       tocIsDisplayed: false,
-      scrolledToMostBottom: false,
     }
   },
   computed: {
     ...mapGetters(['settings']),
     faListUl() {
       return faListUl
-    },
-    mostBottomScrollValue() {
-      const scrollHeight = Math.max(
-        document.body.scrollHeight,
-        document.documentElement.scrollHeight,
-        document.body.offsetHeight,
-        document.documentElement.offsetHeight,
-        document.body.clientHeight
-      )
-      return scrollHeight - window.innerHeight
-    },
-  },
-  beforeMount() {
-    window.addEventListener('scroll', this.handleScroll)
-  },
-  beforeDestroy() {
-    window.removeEventListener('scroll', this.handleScroll)
-  },
-  methods: {
-    handleScroll() {
-      const scrollValue =
-        window.pageYOffset || document.documentElement.scrollTop
-      // iosはバウンドするので、`>=` にしておく
-      this.scrolledToMostBottom =
-        scrollValue >= this.mostBottomScrollValue * 0.8
     },
   },
 }
