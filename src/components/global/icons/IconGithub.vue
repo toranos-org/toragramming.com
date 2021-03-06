@@ -2,7 +2,7 @@
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 24 24"
-    fill="none"
+    :fill="fill"
     stroke="currentColor"
     stroke-width="2"
     stroke-linecap="round"
@@ -14,3 +14,16 @@
     />
   </svg>
 </template>
+
+<script lang="ts">
+import Vue from 'vue'
+export default Vue.extend({
+  props: {
+    fill: {
+      type: String,
+      required: false,
+      default: () => 'none',
+    },
+  },
+})
+</script>
