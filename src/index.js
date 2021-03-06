@@ -3,6 +3,8 @@ import defu from 'defu'
 
 import tailwindConfig from './tailwind.config'
 
+const domain = process.env.BASE_URL.match(/^https?:\/{2,}(.*?)(?:\/|\?|#|$)/)[1]
+
 const defaultConfig = (docsOptions) => ({
   target: 'static',
   ssr: true,
@@ -44,6 +46,15 @@ const defaultConfig = (docsOptions) => ({
     '@nuxt/content',
     'nuxt-fontawesome',
     '@nuxtjs/sitemap',
+    [
+      '@nuxtjs/google-adsense',
+      {
+        id: process.env.GA_ADSENSE_ID,
+        pageLevelAds: false,
+        analyticsUacct: process.env.GA_TRACKING_ID, // アナリティクスと連携する場合のみ必要
+        analyticsDomainName: domain, // アナリティクスと連携する場合のみ必要
+      },
+    ],
   ],
   components: true,
   loading: {

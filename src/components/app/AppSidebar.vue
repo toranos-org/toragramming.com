@@ -10,6 +10,7 @@
         :toc="toc"
         :title="$t('toc.title')"
       />
+      <adsbygoogle class="mt-8 max-h-30vh" ad-slot="5586255366" ad-format="" />
     </div>
   </div>
 </template>
