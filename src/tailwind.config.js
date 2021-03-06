@@ -32,6 +32,9 @@ module.exports = ({ docsOptions, nuxt }) => ({
         '70per': '70%',
         '90per': '90%',
       },
+      height: {
+        '30vh': '30vh',
+      },
       maxHeight: {
         64: '16rem',
         96: '24rem',
