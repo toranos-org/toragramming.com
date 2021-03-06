@@ -40,6 +40,7 @@ const defaultConfig = (docsOptions) => ({
     '@nuxtjs/google-fonts',
     '@nuxt/typescript-build',
     '@nuxt/image',
+    '@nuxtjs/google-analytics',
   ],
   modules: [
     'nuxt-i18n',
@@ -162,6 +163,9 @@ const defaultConfig = (docsOptions) => ({
         .fetch()
       return posts.map((post) => post.path)
     },
+  },
+  googleAnalytics: {
+    id: process.env.GA_TRACKING_ID,
   },
 })
 
