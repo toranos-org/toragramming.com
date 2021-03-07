@@ -46,7 +46,12 @@
             :img-dir="document.thumbnail ? '/assets' + document.to : ''"
           />
         </div>
+        <adsbygoogle class="h-32" ad-slot="5586255366" ad-format="" />
         <NuxtContent :document="document" />
+        <div class="grid grid-cols-2 gap-4">
+          <adsbygoogle class="" ad-slot="8593739267" />
+          <adsbygoogle class="" ad-slot="7045688027" />
+        </div>
       </article>
       <AppPrevNext v-if="!document.fullscreen" :prev="prev" :next="next" />
       <AppTocButton v-if="!document.fullscreen" :toc="document.toc" />
