@@ -134,7 +134,7 @@ export default {
   head() {
     const metaTitle = `${this.document.title} - ${this.settings.title}`
     const thumbnail = this.document.thumbnail
-      ? `${this.settings.url}/${
+      ? `${this.settings.url}/assets${this.$route.path.toString()}/${
           this.document.thumbnail.light || this.document.thumbnail
         }`
       : `${this.settings.url}/default-thumbnail.png`
