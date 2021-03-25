@@ -9,11 +9,14 @@
   "twitter": "TigRig_TRNS",
   "copyright": "2021 Toragramming",
   "categories": {
-    "desktop": {
-      "title": "デスクトップアプリ",
+    "crossplatform": {
+      "title": "クロスプラットフォーム",
       "children": {
         "electron": {
           "title": "Electron"
+        },
+        "flutter": {
+          "title": "Flutter"
         }
       }
     },

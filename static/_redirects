@@ -3,7 +3,7 @@ https://toragramming.netlify.com/* https://toragramming.com/:splat
 http://toragramming.com/* https://toragramming.com/:splat
 
 https://toragramming.com/page/* https://toragramming.com/
-https://toragramming.com/programming/electron/electron-env/ https://toragramming.com/desktop/electron/electron-env-2019/
+https://toragramming.com/programming/electron/electron-env/ https://toragramming.com/crossplatform/electron/electron-env-2019/
 https://toragramming.com/programming/html/html-link-target-blank/ https://toragramming.com/web/html/html-link-target-blank/
 https://toragramming.com/programming/regexp/regexp-delete-css-comment/ https://toragramming.com/web/css/regexp-delete-css-comment/
 https://toragramming.com/uncategorized/rental-server/trial-conoha-wing/ https://toragramming.com/web/rental-server/introduce-conoha-wing/
@@ -20,3 +20,5 @@ https://toragramming.com/programming/nuxt-js/nuxt-stylelint-prettier-vscode-form
 https://toragramming.com/uncategorized/dev-tools/how-to-use-github-cli-for-windows/ https://toragramming.com/others/git/how-to-use-github-cli-for-windows/
 https://toragramming.com/gamedev/tyranoscript/how-to-develop-tyranoscript-ver5-tyranostudio/ https://toragramming.com/gamedev/tyranoscript/how-to-develop-tyranoscript-ver5-tyranostudio/
 https://toragramming.com/programming/how-to-edit-merge-commit-messages/ https://toragramming.com/others/git/how-to-edit-merge-commit-messages/
+
+https://toragramming.com/desktop/electron/electron-env-2019/ https://toragramming.com/crossplatform/electron/electron-env-2019/

@@ -6,7 +6,7 @@
   >
     <div class="container mx-auto flex-1 px-4 lg:px-8">
       <div class="flex items-center justify-between h-16">
-        <div class="lg:w-1/5 flex items-center pr-4" @click.stop="noop">
+        <div class="lg:w-2/12 flex items-center pr-4" @click.stop="noop">
           <NuxtLink
             :to="localePath('/')"
             class="flex-shrink-0 flex-1 font-bold text-xl"
@@ -28,7 +28,7 @@
             />
           </NuxtLink>
         </div>
-        <ul class="w-3/5 pl-8 lg:flex hidden text-center" @click.stop="noop">
+        <ul class="w-8/12 pl-8 lg:flex hidden text-center" @click.stop="noop">
           <li
             v-for="(category, categoryPath) in categories"
             :key="categoryPath"
@@ -47,7 +47,7 @@
           >
             <NuxtLink
               :to="localePath(`/${categoryPath}`)"
-              :class="['block', 'hover:text-primary-500', 'leading-10']"
+              :class="['block', 'px-2', 'hover:text-primary-500', 'leading-10']"
             >
               {{ category.title || category }}
             </NuxtLink>
@@ -88,7 +88,7 @@
             </div>
           </li>
         </ul>
-        <div class="w-1/5 lg:flex hidden justify-end" @click.stop="noop">
+        <div class="w-2/12 lg:flex hidden justify-end" @click.stop="noop">
           <AppLangSwitcher />
           <AppColorSwitcher class="ml-4" />
         </div>
