@@ -2,19 +2,29 @@
   <div class="w-full py-4 lg:pt-8 lg:pb-4 dark:border-gray-800">
     <article class="prose dark:prose-dark max-w-none lg:px-8">
       <h1>お問い合わせ</h1>
-      <form class="mt-16">
+      <form class="mt-16" netlify>
         <div class="flex flex-wrap -mx-3 mb-6">
           <div class="w-full px-3">
             <label :class="labelStyles" for="your-name">
               お名前（ハンドルネーム可）
             </label>
-            <input name="your-name" :class="inputStyles" type="text" />
+            <input
+              name="your-name"
+              :class="inputStyles"
+              type="text"
+              autocomplete="name"
+            />
           </div>
         </div>
         <div class="flex flex-wrap -mx-3 mb-6">
           <div class="w-full px-3">
             <label :class="labelStyles" for="email">メールアドレス</label>
-            <input name="email" :class="inputStyles" type="email" />
+            <input
+              name="email"
+              :class="inputStyles"
+              type="email"
+              autocomplete="email"
+            />
           </div>
         </div>
         <div class="flex flex-wrap -mx-3 mb-6">
@@ -25,7 +35,7 @@
         </div>
         <div class="md:flex md:items-center">
           <div class="md:w-1/3">
-            <button :class="buttonStyles" type="button">送信</button>
+            <button :class="buttonStyles" type="submit">送信</button>
           </div>
         </div>
       </form>
