@@ -58,6 +58,7 @@
 
   & .nuxt-content-highlight {
     @apply relative;
+    @apply text-sm;
 
     /* Style filename span added by @nuxt/content */
     & > .filename {
