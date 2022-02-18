@@ -9,58 +9,14 @@
   "twitter": "TigRig_TRNS",
   "copyright": "2021 Toragramming",
   "categories": {
-    "crossplatform": {
-      "title": "クロスプラットフォーム",
-      "children": {
-        "electron": {
-          "title": "Electron"
-        },
-        "flutter": {
-          "title": "Flutter"
-        }
-      }
+    "articles": {
+      "title": "記事一覧"
     },
-    "web": {
-      "title": "Web 系",
-      "children": {
-        "html": {
-          "title": "HTML"
-        },
-        "css": {
-          "title": "CSS"
-        },
-        "vuejs": {
-          "title": "Vue.js"
-        },
-        "nuxtjs": {
-          "title": "Nuxt.js"
-        },
-        "rental-server": {
-          "title": "レンタルサーバー"
-        },
-        "wordpress": {
-          "title": "WordPress"
-        }
-      }
+    "blog": {
+      "title": "開発ブログ"
     },
-    "gamedev": {
-      "title": "ゲーム制作",
-      "children": {
-        "tyranoscript": {
-          "title": "TyranoScript"
-        }
-      }
-    },
-    "others": {
-      "title": "その他",
-      "children": {
-        "git": {
-          "title": "Git"
-        },
-        "oracle": {
-          "title": "Oracle"
-        }
-      }
+    "topics": {
+      "title": "トピック"
     }
   }
 }
