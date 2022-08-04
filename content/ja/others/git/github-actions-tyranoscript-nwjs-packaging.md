@@ -1,7 +1,6 @@
 ---
 title: GitHub Actions で NW.js（TyranoScript Ver4 系）の Windows 向けパッケージングと Releases への添付を自動化
 description: GitHub Actions で、NW.js（TyranoScript Ver4 系）の Windows 向けパッケージングと Releases 作成、およびパッケージングデータの添付までを自動化するワークフローの紹介
-thumbnail: eyecatch.png
 createdAt: 2022-08-04 20:17
 updatedAt: 2022-08-04 20:17
 ---
