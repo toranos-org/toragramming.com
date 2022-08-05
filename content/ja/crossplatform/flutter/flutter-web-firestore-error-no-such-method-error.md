@@ -2,7 +2,7 @@
 title: "【Flutter × Firestore】エラー「NoSuchMethodError: invalid member on null: 'includeMetadataChanges'」が発生した場合の対処法"
 description: "Flutter（Web）で [cloud_firestore/unknown] NoSuchMethodError: invalid member on null: 'includeMetadataChanges' とエラー表示されたときの原因と対処法"
 createdAt: 2021-03-25 16:02:17
-updateAt: 2021-03-25 17:10:29
+updatedAt: 2021-03-25 17:10:29
 ---
 
 ## 事象

@@ -31,8 +31,8 @@
             <fa :icon="faSyncAlt" />
             <time :datetime="document.updatedAt" itemprop="modified">
               {{ postedDate.update }}
-            </time></span
-          >
+            </time>
+          </span>
         </div>
         <div v-if="document.subtitle" class="-mt-4">
           <p class="text-gray-600 dark:text-gray-400">

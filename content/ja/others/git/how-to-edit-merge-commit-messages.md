@@ -3,7 +3,7 @@ title: 【Git】マージコミットを修正する方法【git rebase -i -r】
 description: Git でマージコミットを修正する方法（git rebase -i -r）を紹介します。
 thumbnail: eyecatch.png
 createdAt: 2020-08-03 00:00:00
-updateAt: 2021-03-01 00:00:00
+updatedAt: 2021-03-01 00:00:00
 ---
 
 ## 先にまとめ
