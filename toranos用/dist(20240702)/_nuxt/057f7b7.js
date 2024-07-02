@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{177:function(t,e,o){"use strict";o.r(e),e.default={search:{placeholder:'Szukaj w posty (Naciśnij "/" aby rozpocząć)'},toc:{title:"spis treści",titleOnThisPage:"Na tej stronie"},article:{github:"Edytuj stronę na GitHub"}}}}]);

@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{172:function(t,e,o){"use strict";o.r(e),e.default={search:{placeholder:'Search the posts (Press "/" to focus)'},toc:{title:"Table of contents",titleOnThisPage:"On this page"},article:{github:"Edit this page on GitHub"}}}}]);

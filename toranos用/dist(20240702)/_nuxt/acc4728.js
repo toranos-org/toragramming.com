@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{179:function(e,n,t){"use strict";t.r(n),n.default={search:{placeholder:"gönderiler arayın (Odaklanmak için tıklayınız)"},toc:{title:"içindekiler",titleOnThisPage:"Bu sayfada"},article:{github:"Bu sayfayı GitHub üzerinde düzenleyin"}}}}]);

@@ -1,0 +1,51 @@
+<svg width="256" height="44" viewBox="0 0 256 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="4" height="4" transform="matrix(-1 0 0 1 28 8)" fill="#FF8A00"/>
+  <rect width="4" height="20" transform="matrix(-1 0 0 1 18 8)" fill="#FF8A00"/>
+  <rect width="4" height="4" transform="matrix(-1 0 0 1 8 8)" fill="#FF8A00"/>
+  <rect width="16" height="4" transform="matrix(-1 0 0 1 24 4)" fill="#FF8A00"/>
+  <rect width="4" height="8" transform="matrix(-1 0 0 1 36 16)" fill="#FF8A00"/>
+  <rect width="8" height="4" transform="matrix(-1 0 0 1 44 12)" fill="#FF8A00"/>
+  <rect width="8" height="4" transform="matrix(-1 0 0 1 44 24)" fill="#FF8A00"/>
+  <rect width="4" height="8" transform="matrix(-1 0 0 1 48 16)" fill="#FF8A00"/>
+  <rect width="4" height="8" transform="matrix(-1 0 0 1 100 16)" fill="#FFD099"/>
+  <rect width="8" height="4" transform="matrix(-1 0 0 1 108 12)" fill="#FFD099"/>
+  <rect width="10" height="4" transform="matrix(-1 0 0 1 108 36)" fill="#FFD099"/>
+  <rect width="8" height="4" transform="matrix(-1 0 0 1 108 24)" fill="#FFD099"/>
+  <rect x="108" y="28" width="4" height="8" fill="#FFD099"/>
+  <rect width="4" height="8" transform="matrix(-1 0 0 1 112 16)" fill="#FFD099"/>
+  <rect width="4" height="8" transform="matrix(-1 0 0 1 240 16)" fill="#FFD099"/>
+  <rect width="8" height="4" transform="matrix(-1 0 0 1 248 12)" fill="#FFD099"/>
+  <rect width="10" height="4" transform="matrix(-1 0 0 1 248 36)" fill="#FFD099"/>
+  <rect width="8" height="4" transform="matrix(-1 0 0 1 248 24)" fill="#FFD099"/>
+  <rect x="248" y="28" width="4" height="8" fill="#FFD099"/>
+  <rect width="4" height="8" transform="matrix(-1 0 0 1 252 16)" fill="#FFD099"/>
+  <rect width="4" height="16" transform="matrix(-1 0 0 1 56 12)" fill="#FF8A00"/>
+  <rect width="8" height="4" transform="matrix(-1 0 0 1 68 12)" fill="#FF8A00"/>
+  <rect width="4" height="4" transform="matrix(-1 0 0 1 60 16)" fill="#FF8A00"/>
+  <rect width="4" height="16" transform="matrix(-1 0 0 1 120 12)" fill="#FFD099"/>
+  <rect width="8" height="4" transform="matrix(-1 0 0 1 132 12)" fill="#FFD099"/>
+  <rect width="4" height="4" transform="matrix(-1 0 0 1 124 16)" fill="#FFD099"/>
+  <rect width="4" height="16" transform="matrix(-1 0 0 1 164 12)" fill="#FFD099"/>
+  <rect width="4" height="12" transform="matrix(-1 0 0 1 172 16)" fill="#FFD099"/>
+  <rect width="4" height="12" transform="matrix(-1 0 0 1 180 16)" fill="#FFD099"/>
+  <rect width="12" height="4" transform="matrix(-1 0 0 1 176 12)" fill="#FFD099"/>
+  <rect width="4" height="14" transform="matrix(-1 0 0 1 212 14)" fill="#FFD099"/>
+  <rect width="4" height="4" transform="matrix(-1 0 0 1 212 6)" fill="#FFD099"/>
+  <rect width="4" height="16" transform="matrix(-1 0 0 1 188 12)" fill="#FFD099"/>
+  <rect width="4" height="12" transform="matrix(-1 0 0 1 196 16)" fill="#FFD099"/>
+  <rect width="4" height="12" transform="matrix(-1 0 0 1 204 16)" fill="#FFD099"/>
+  <rect width="12" height="4" transform="matrix(-1 0 0 1 200 12)" fill="#FFD099"/>
+  <rect width="4" height="16" transform="matrix(-1 0 0 1 220 12)" fill="#FFD099"/>
+  <rect width="8" height="4" transform="matrix(-1 0 0 1 228 12)" fill="#FFD099"/>
+  <rect width="4" height="12" transform="matrix(-1 0 0 1 232 16)" fill="#FFD099"/>
+  <rect width="4" height="8" transform="matrix(-1 0 0 1 76 16)" fill="#FF8A00"/>
+  <rect width="8" height="4" transform="matrix(-1 0 0 1 84 12)" fill="#FF8A00"/>
+  <rect width="8" height="4" transform="matrix(-1 0 0 1 84 24)" fill="#FF8A00"/>
+  <rect width="4" height="8" transform="matrix(-1 0 0 1 88 16)" fill="#FF8A00"/>
+  <rect width="8" height="4" transform="matrix(-1 0 0 1 92 24)" fill="#FF8A00"/>
+  <rect width="4" height="8" transform="matrix(-1 0 0 1 140 16)" fill="#FFD099"/>
+  <rect width="8" height="4" transform="matrix(-1 0 0 1 148 12)" fill="#FFD099"/>
+  <rect width="8" height="4" transform="matrix(-1 0 0 1 148 24)" fill="#FFD099"/>
+  <rect width="4" height="8" transform="matrix(-1 0 0 1 152 16)" fill="#FFD099"/>
+  <rect width="8" height="4" transform="matrix(-1 0 0 1 156 24)" fill="#FFD099"/>
+</svg>

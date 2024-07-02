@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{173:function(e,n,t){"use strict";t.r(n),n.default={search:{placeholder:'Buscar en publicaciones (Pulsa "/" para afinar)'},toc:{title:"Tabla de contenido",titleOnThisPage:"En esta página"},article:{github:"Editar esta página en Github"}}}}]);
